@@ -1,6 +1,6 @@
 # set the working directory (where the files are, so no paths are needed when loading/saving data)
 # change this to your directory
-setwd('E:teaching/2015_acg5075_r/chapter14')
+setwd('E:teaching/2015_acg5075_r/introR/chapter14')
 
 # read csv file with columns: month,orders,costs
 mydata = read.csv("dataset.csv") 
