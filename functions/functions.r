@@ -18,4 +18,4 @@ myMultiply(5,2)
 source("functions/myHighLow.r");
 
 # call it
-varCost <- myHighLow( mymatrix, "orders", "costs")
+varCost <- myHighLow( myMatrix, "orders", "costs")
