@@ -1,13 +1,15 @@
 # set the working directory (where the files are, so no paths are needed when loading/saving data)
 # change this to your directory
-setwd('E:teaching/2015_acg5075_r/introR/chapter14')
+# if you've already set it, no need to set it again
+setwd('E:teaching/2015_acg5075_r/introR')
 
 # read csv file with columns: month,orders,costs
-mydata = read.csv("dataset.csv") 
+# if already loaded, no need to load it again
+myData = read.csv("chapter14/dataset.csv") 
 
 # regression
 # dependent variable costs, independent variable orders
-fit <- lm(costs ~ orders, data=mydata)
+fit <- lm(costs ~ orders, data=myData)
 summary(fit)
 
 # Other useful functions 
