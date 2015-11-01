@@ -15,7 +15,7 @@ myMultiply(5,2)
 #[1] 10
 
 # read the function stored in the file myHighLow.r
-source("functions/myHighLow.r");
+source("chapter15/myHighLow.r");
 
 # call it
 varCost <- myHighLow( myMatrix, "orders", "costs")
